@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.nav-item {
+    
+    margin-left: 6%;
+  }
+.icon{
+    color: #08e8de;
+    
+}
+.verify{
+    color: #08e8de;
+    position: relative;
+    top: -10px;
+    
+}
+.lat{
+    width: 100%;
+}
+
+.img{
+    width: 100%;
+}
+.img-container{
+    box-shadow: 2px 3px 9px rgba(8, 232, 222,.5);
+    padding: 0;
+    overflow: hidden;
+    max-width: 400px;
+}
+
+.social{
+    color: #08e8de;
+
+}
+
+#about{
+    position: relative;
+    margin-top: 6%;
+}
+
+.btn-contact{
+    position: absolute;
+    right: 15%;
+    top: 15%;
+}
+.lead{
+    width: 65%;
+    margin-top: 40px;
+}
+
+
+.progress{
+    max-width:400px;
+    margin: 0  auto 13px auto;
+}
+
+.card{
+    margin: auto;
+}
+
+.accordion{
+    background-color: black;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 2px solid #08e8de;
+    
+}
+
+.accordion-button{
+    background-color: black;
+    color: azure;
+    position: relative;
+    
+}
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2308e8de'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  }
+.arrow{
+    position: absolute;
+    top:30%;
+    right: 3%;
+}
+.youtube{
+    color: red;
+    margin-right: 5px;
+}
+
+.card{
+    border: 2px solid #08e8de;
+    max-width: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+#footer{
+    width: 100%;
+    
+}
+@media (max-width:575px){
+   
+    .img-container{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .btn-contact{
+        position: static;
+        margin-left: 2%;
+        margin-bottom: 25px;
+        
+        
+    }
+}
+

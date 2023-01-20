@@ -1,0 +1,15 @@
+
+
+@import '../node_modules/bootstrap/scss/_functions';
+@import '../node_modules/bootstrap/scss/_variables';
+
+$custom-theme-colors:(
+    "altlight":#ede7f3,
+    "altdark":black,
+    "main": #08e8de
+);
+
+$theme-colors:map-merge($custom-theme-colors,$theme-colors);
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
